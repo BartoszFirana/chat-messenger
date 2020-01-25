@@ -1,0 +1,66 @@
+.login__wrapper {
+    display: flex;
+}
+
+.gray__background {
+    background: #f7f7f7;
+}
+
+.login__button {
+    flex-grow: 1;
+    height: 300px;
+    cursor: pointer;
+    position: relative;
+}
+
+.login__button:hover {
+    border-bottom: 8px solid #7298be;
+}
+
+.account__wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+}
+
+.account__avatar {
+    width: 60px;
+    height: 60px;
+}
+
+.account__paragraph {
+    color: #3a6187;
+    font-size: .8rem;
+    font-weight: 600;
+}
+
+.description__wrapper {
+    text-align: center;
+    padding: 60px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: white;
+    background: #747474;
+}
+
+.description__wrapper--paraghraph {
+    margin: 0;
+}
+
+.logo__wrapper {
+    color: #3a6187;
+    background: #e4e4e4;
+    font-size: 2.4rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px;
+}
+
+.logo__subtitle {
+    font-size: .9rem;
+    font-weight: 300;
+    margin-top: -7px;
+}
