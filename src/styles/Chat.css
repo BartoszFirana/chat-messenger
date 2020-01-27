@@ -1,0 +1,46 @@
+.chat__header {
+    display: flex;
+    background: #e4e4e4;
+    margin: -1px;
+}
+
+.logo {
+    flex-grow: 1;
+    margin: 1px;
+}
+
+.account {
+    flex-grow: 1;
+    display: flex;
+    text-align: right;
+}
+
+.account__button {
+    flex-grow: 1;
+    text-decoration: none;
+    font-size: .8rem;
+    color: #3a6187;
+    font-weight: 600;
+    margin: auto;
+}
+
+.friend {
+    position: relative;
+    text-align: center;
+    height: 70px;
+}
+
+.friend__avatar {
+    position: absolute;
+    padding: 2px;
+    bottom: 50%;
+    left: 1%;
+    transform: scale(.8) translate(0%, 65%);
+}
+
+.friend__name {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

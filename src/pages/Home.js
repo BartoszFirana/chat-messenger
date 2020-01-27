@@ -1,7 +1,10 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
+import Logo from '../components/Logo';
+
 import '../styles/Home.css';
+import '../styles/Logo.css';
 
 import doeAvatar from '../images/doe-avatar.svg';
 import smithAvatar from '../images/smith-avatar.svg';
@@ -10,11 +13,8 @@ import smithAvatar from '../images/smith-avatar.svg';
 const Home = () => {
     return (
         <>
-            <section className="login__container">
-                <div className="logo__wrapper">
-                    Chat
-                    <div className="logo__subtitle">to JS master</div>
-                </div>
+            <Logo />
+            <section>
                 <div className="login__wrapper">
                     <NavLink to="/chat/John-Doe" className="login__button gray__background">
                         <div className="account__wrapper">
@@ -29,12 +29,12 @@ const Home = () => {
                         </div>
                     </NavLink>
                 </div>
-                <div className="description__wrapper">
-                    <p className="description__wrapper--paraghraph">
-                        Choice your accountand start a conversation
-                    </p>
-                </div>
             </section>
+            <div className="description__wrapper">
+                <p className="description__wrapper--paraghraph">
+                    Choice your accountand start a conversation
+                    </p>
+            </div>
         </>
     );
 }
