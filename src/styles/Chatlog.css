@@ -1,0 +1,38 @@
+.editor {
+    position: absolute;
+    bottom: 0;
+    background: #eee;
+    width: 100%;
+    padding: 20px;
+    border-top: 8px solid #7298be;
+    display: flex;
+}
+
+.editor__input {
+    height: 60px;
+    padding: 10px;
+    border: 0;
+    border-radius: 15px;
+    flex-grow: 2;
+    outline: none;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #7b7b7b;
+}
+
+.editor__input:focus {
+    border: 2px solid #7298be;
+    border-radius: 15px;
+}
+
+.editor__button {
+    flex-grow: 1;
+    margin-left: 15px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: #7298be;
+    font-size: 1.6rem;
+    font-weight: 600;
+    padding: 0;
+}

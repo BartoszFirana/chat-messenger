@@ -28,6 +28,7 @@
     position: relative;
     text-align: center;
     height: 70px;
+    border-bottom: 1px solid #e4e4e4;
 }
 
 .friend__avatar {
@@ -43,4 +44,11 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    font-size: .8rem;
+    color: #747474;
+}
+
+.chatlog {
+    height: 550px;
+    max-height: 100%;
 }
